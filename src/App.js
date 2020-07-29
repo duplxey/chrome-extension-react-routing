@@ -1,6 +1,9 @@
 import React from 'react';
 import './App.css';
 import {BrowserRouter as Router, Link, Route, Switch} from "react-router-dom";
+import Users from "./pages/users";
+import About from "./pages/about";
+import Home from "./pages/home";
 
 function App() {
   return (
@@ -37,18 +40,6 @@ function App() {
       </Router>
     </div>
   );
-}
-
-function Home() {
-  return <h2>Home</h2>;
-}
-
-function About() {
-  return <h2>About</h2>;
-}
-
-function Users() {
-  return <h2>Users</h2>;
 }
 
 export default App;
